@@ -5,6 +5,8 @@ from data_preparation import prepare_data
 from model_trainer import train_model
 from model_registry import register_model
 
+# Cambios a devop
+
 def main():
     # Load data
     data = load_data("D:/Proyectos/mlflow/repositorios/introduction-to-mlflow/data/in/application_data.csv")
@@ -22,3 +24,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
+# 11. Finalmente, el MLE deberá ejecutar y probar el **pipelineml.py** del proyecto desde la rama develop    
