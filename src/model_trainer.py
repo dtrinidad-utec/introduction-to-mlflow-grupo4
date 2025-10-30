@@ -1,3 +1,4 @@
+#Modificando el model trainer
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 
